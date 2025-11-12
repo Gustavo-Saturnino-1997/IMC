@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("./IMC/img/image-background.webp");
+    background-image: url("/IMC/img/image-background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
