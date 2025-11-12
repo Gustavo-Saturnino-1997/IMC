@@ -28,7 +28,7 @@ O layout foi desenvolvido para se adaptar bem em:
 
 ## 🚀 Como usar
 
-1. Acesse a [página do projeto no GitHub Pages](https://seu-usuario.github.io/nome-do-repositório/)
+1. Acesse a [página do projeto no GitHub Pages](https://gustavo-saturnino-1997.github.io/IMC/)
 2. Preencha seu nome, altura (em cm) e peso (em kg)
 3. Clique em **Calcular IMC**
 4. Veja seu IMC na próxima página com a classificação destacada
