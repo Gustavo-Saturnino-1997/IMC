@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de IMC</title>
+    <link rel="stylesheet" href="tabela.css">
+    <script src="tabela.js" defer></script>
+
+</head>
+
+<body>
+    <div class="tabela">
+        <h1 id="resultado"></h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>IMC</th>
+                    <th>Classificações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="imc-abaixo-do-peso">Menor que 18,5</td>
+                    <td id="Classificação-abaixo-do-peso">Abaixo do peso</td>
+                </tr>
+
+                <tr>
+                    <td id="imc-normal">18,5 até 24,9</td>
+                    <td id="Classificação-normal">Peso Normal</td>
+                </tr>
+
+                <tr>
+                    <td id="imc-excesso-de-peso">25 até 29,9</td>
+                    <td id="Classificação-excesso-de-peso">Excesso de peso</td>
+                </tr>
+
+                <tr>
+                    <td id="imc-obesidade-classe-1">30 até 34,9</td>
+                    <td id="Classificação-obesidade-classe-1">Obesidade classe 1</td>
+                </tr>
+
+                <tr>
+                    <td id="imc-obesidade-classe-2">35 até 39,9</td>
+                    <td id="Classificação-obesidade-classe-2">Obesidade classe 2</td>
+                </tr>
+
+                <tr>
+                    <td id="imc-obesidade-classe-3">Maior ou igual a 40</td>
+                    <td id="Classificação-obesidade-classe-3">Obesidade classe 3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p id="text-under-table">Classificação segundo a OMS (Organização Mundial da Saúde)</p>
+
+    </div>
+
+</body>
+
+</html>

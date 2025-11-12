@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para IMC</title>
+    <link rel="stylesheet" href="formulário/formulário.css">
+    <script src="formulário/formulário.js" defer></script>
+</head>
+
+<body>
+    <div class="formulário">
+        <form class="formulário-para-calculadora">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+
+            <label for="height">Altura:</label>
+            <input type="number" min="0" step="1" id="height" placeholder="Em cm, ex: 172, 163, 180" required>
+
+            <label for="weigth">Peso:</label>
+            <input type="number" min="0" step="1" id="weigth" placeholder="Em kg" required>
+
+            <button type="submit">Calcular IMC</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
